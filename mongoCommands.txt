@@ -1,0 +1,20 @@
+mongod 
+creat a data folder, which must be in C: root and in side that data folder create another folder with the name db 
+open terminal and adress the path of the dir to the mongo bin folder which will be created on default path.
+
+open another terminal and get your hands nasty on it 
+
+use contactList 
+>> switched to contactlist
+db.contactlist.insert({name : 'faheel', email:'faheelkhan@hotmail.com'})
+>>
+db.contactlist.find()
+... all data will b shown 
+db.contactlist.find().pretty() 
+>>>
+{
+        "_id" : ObjectId("58d64326df7abb1ecc35f3cf"),
+        "name" : "tom",
+        "email" : "hale.email.com",
+        "number" : "1111"
+}
